@@ -1,0 +1,233 @@
+body{
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2{
+  color: #7ebdb4;
+}
+
+h3 {
+  color: #FB7B6B;
+}
+p{
+  display: block;
+  color: white;
+}
+
+
+img{
+  display: inline-block;;
+}
+/* Classes */
+
+a {
+  color: #b2ebf2;
+  margin: 20px;
+}
+
+a:hover {
+  color: #588da8;
+}
+
+hr {
+  border-style: dotted none none  ;
+  border-color: #b2ebf2;
+  border-width: 5px;
+  height: 0;
+  width: 5%;
+}
+
+
+.top_container {
+background-color: #FB7B6B;
+ position: relative;
+}
+
+.jumbotron{
+
+background-color: #FB7B6B;
+padding: 0;
+margin-bottom: 0;
+}
+
+.middle_container {
+
+  background-color: #F4EEFF;
+  padding: 50px;
+
+      border: 10px,20px,10px,20px;
+
+
+}
+
+.second_middle_container{
+  background-color: #347474;
+  padding: 50px;
+
+  border: 10px,20px,20px,20px;
+  border-style: solid;
+}
+
+.bottom_container{
+  background-color: #FB7B6B;
+  padding: 50px;
+
+  border: 10px,20px,20px,20px;
+}
+
+.header_intro {
+/*font-family: 'Pacifico', cursive;*/
+font-size: 5.625rem;
+margin-top: 50px;
+font-family: 'Sacramento', cursive;
+font-weight: normal;
+color: #7ebdb4
+}
+
+.header_desciption {
+font-size: 1.10rem;
+color: #b2ebf2;
+font-weight: bold;
+margin-bottom: 50px;
+}
+
+.top_cloud {
+  position: absolute;
+  left: 12%;
+  top: 0;
+
+}
+.bottom_cloud {
+  position: absolute;
+  right: 10%;
+  top: 300px;
+}
+
+.mountain_header {
+  position: relative;
+  margin-top: 50px;
+  top: 50px;
+}
+
+.myranda_olive {
+  border-radius: 50px;
+}
+
+.dot {
+  height: 7px;
+  width: 7px;
+  background-color: #588da8;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.profile{
+
+  margin: 50px  auto 50px auto;
+}
+
+.intro-h3 {
+  padding: 1% 15%;
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+}
+
+
+
+.contact-me {
+  margin: 50px auto 50px auto;
+}
+
+
+.btn {
+background: #b2ebf2;
+border-radius: 10px;
+color: #ee8572;
+font-family: 'Merriweather', serif;
+font-size: 20px;
+font-weight: 50em;
+padding: 10px;
+border: solid  1px;
+text-decoration: none;
+display: inline-block;
+cursor: pointer;
+text-align: center;
+}
+
+.copyright {
+color:  #588da8;
+font-size: .75em;
+margin:20px;
+}
+
+.btn:hover {
+border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+
+/* Carousel Section */
+
+.carousel-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #35495e;
+}
+
+.carousel-image {
+width: 10%;
+border-radius: 100%;
+margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.icon-carousel{
+  color: #ef8172;
+  font-size: 3rem;
+  margin: 5% 3% 5% 3%
+}
+
+
+/* Contact Me */
+
+.contact-me-h2 {
+  padding: 2% 15%;
+}
+.contact-me-h3   {
+  padding: 1% 15%;
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+}
+
+.contact-me-p {
+  color: #35495e;
+}
+
+/*pink: #ee8572
+
+blue: #35495e
+
+dark green: #347474
+
+aqua:#347474
+*/
